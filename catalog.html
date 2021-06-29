@@ -77,45 +77,49 @@
             </fieldset>
             <fieldset class="filter__fat">
               <legend class="filter__fat-name title-name">Жирность :</legend>
-              <p class="filter__fat-item">
-                <input type="radio" name="fat-group" id="fat-zero" class="filter__input-radio">
-                <label for="fat-zero">0%</label>
-              </p>
-              <p class="filter__fat-item">
-                <input type="radio" name="fat-group" id="fat-ten" class="filter__input-radio" checked>
-                <label for="fat-ten">до 10%</label>
-              </p>
-              <p class="filter__fat-item">
-                <input type="radio" name="fat-group" id="fat-before" class="filter__input-radio">
-                <label for="fat-before">до 30%</label>
-              </p>
-              <p class="filter__fat-item">
-                <input type="radio" name="fat-group" id="fat-after" class="filter__input-radio">
-                <label for="fat-after">выше 30%</label>
-              </p>
+              <div class="filter__fat-wrapper">
+                <p class="filter__fat-item">
+                  <input type="radio" name="fat-group" id="fat-zero" class="filter__input-radio">
+                  <label for="fat-zero">0%</label>
+                </p>
+                <p class="filter__fat-item">
+                  <input type="radio" name="fat-group" id="fat-ten" class="filter__input-radio" checked>
+                  <label for="fat-ten">до 10%</label>
+                </p>
+                <p class="filter__fat-item">
+                  <input type="radio" name="fat-group" id="fat-before" class="filter__input-radio">
+                  <label for="fat-before">до 30%</label>
+                </p>
+                <p class="filter__fat-item">
+                  <input type="radio" name="fat-group" id="fat-after" class="filter__input-radio">
+                  <label for="fat-after">выше 30%</label>
+                </p>
+              </div>
             </fieldset>
             <fieldset class="filter__fillers">
               <legend class="filter__fillers-name title-name">Наполнители :</legend>
-              <p class="filter__fillers-item">
-                <input type="checkbox" name="chocolate" id="choco" class="filter__input-checkbox" checked>
-                <label for="choco">Шоколадные</label>
-              </p>
-              <p class="filter__fillers-item">
-                <input type="checkbox" name="powdered" id="sugar" class="filter__input-checkbox" checked>
-                <label for="sugar">Сахарные присыпки</label>
-              </p>
-              <p class="filter__fillers-item">
-                <input type="checkbox" name="fruits" id="fruit" class="filter__input-checkbox">
-                <label for="fruit">Фрукты</label>
-              </p>
-              <p class="filter__fillers-item">
-                <input type="checkbox" name="syrups" id="syrup" class="filter__input-checkbox">
-                <label for="syrup">Сиропы</label>
-              </p>
-              <p class="filter__fillers-item">
-                <input type="checkbox" name="jams" id="jam" class="filter__input-checkbox">
-                <label for="jam">Джемы</label>
-              </p>
+              <div class="filter__filters-wrap">
+                <p class="filter__fillers-item">
+                  <input type="checkbox" name="chocolate" id="choco" class="filter__input-checkbox" checked>
+                  <label for="choco">Шоколадные</label>
+                </p>
+                <p class="filter__fillers-item">
+                  <input type="checkbox" name="powdered" id="sugar" class="filter__input-checkbox" checked>
+                  <label for="sugar">Сахарные присыпки</label>
+                </p>
+                <p class="filter__fillers-item">
+                  <input type="checkbox" name="fruits" id="fruit" class="filter__input-checkbox">
+                  <label for="fruit">Фрукты</label>
+                </p>
+                <p class="filter__fillers-item">
+                  <input type="checkbox" name="syrups" id="syrup" class="filter__input-checkbox">
+                  <label for="syrup">Сиропы</label>
+                </p>
+                <p class="filter__fillers-item">
+                  <input type="checkbox" name="jams" id="jam" class="filter__input-checkbox">
+                  <label for="jam">Джемы</label>
+                </p>
+              </div>
             </fieldset>
             <button class="filter__btn" type="submit">Применить</button>
           </form>
@@ -125,7 +129,7 @@
         <div class="container">
           <div class="catalog__wrap">
             <ul class="catalog__list">
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/orange.png" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой" class="catalog__img">
                 </div>
@@ -136,7 +140,7 @@
                 <p class="catalog__text">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/chokolate.png" alt="Сливочно-кофейное с кусочками шоколада" class="catalog__img">
                 </div>
@@ -147,7 +151,7 @@
                 <p class="catalog__text">Сливочно-кофейное с кусочками шоколада</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/strawberry.png" alt="Сливочно-клубничное с присыпкой из белого шоколада" class="catalog__img">
                 </div>
@@ -158,7 +162,7 @@
                 <p class="catalog__text">Сливочно-клубничное с присыпкой из белого шоколада</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/caramel.png" alt="Сливочное крем-брюле с карамельной подливкой" class="catalog__img">
                 </div>
@@ -169,7 +173,7 @@
                 <p class="catalog__text">Сливочное крем-брюле с карамельной подливкой</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/lingonberry.png" alt="Сливочное с брусничным джемом" class="catalog__img">
                 </div>
@@ -180,7 +184,7 @@
                 <p class="catalog__text">Сливочное с брусничным джемом</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/blueberries.png" alt="Сливочно-черничное с цельными ягодами черники" class="catalog__img">
                 </div>
@@ -191,7 +195,7 @@
                 <p class="catalog__text">Сливочно-черничное с цельными ягодами черники</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/lemon.png" alt="Сливочно-лимонное с карамельной присыпкой" class="catalog__img">
                 </div>
@@ -202,7 +206,7 @@
                 <p class="catalog__text">Сливочно-лимонное с карамельной присыпкой</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/shavings.png" alt="Сливочное с шоколадной стружкой" class="catalog__img">
                 </div>
@@ -213,7 +217,7 @@
                 <p class="catalog__text">Сливочное с шоколадной стружкой</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/vanila.png" alt="Сливочно-ванильное с кусочками шоколада" class="catalog__img">
                 </div>
@@ -224,7 +228,7 @@
                 <p class="catalog__text">Сливочно-ванильное с кусочками шоколада</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/menthol.png" alt="Сливочноe с ментоловым сиропом" class="catalog__img">
                 </div>
@@ -235,7 +239,7 @@
                 <p class="catalog__text">Сливочноe с ментоловым сиропом</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/black-chok.png" alt="Сливочное с кусочками черного шоколада" class="catalog__img">
                 </div>
@@ -246,7 +250,7 @@
                 <p class="catalog__text">Сливочное с кусочками черного шоколада</p>
                 <a href="" class="catalog__link button">Быстрый просмотр</a>
               </li>
-              <li class="catalog__item">
+              <li class="catalog__item" tabindex="0">
                 <div class="catalog__img-wrap">
                   <img src="img/goods/mint.png" alt="Сливочное с мятным сиропом" class="catalog__img">
                 </div>
